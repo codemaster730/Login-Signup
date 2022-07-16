@@ -1,0 +1,18 @@
+.signin-page {
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+  margin: 0 auto;
+
+  .page-title {
+    font-size: $title-big;
+  }
+
+  .form-group {
+    .terms-policy {
+      font-size: $text-big;
+      color: $title-color;
+      margin: 1rem 0;
+    }
+  }
+}

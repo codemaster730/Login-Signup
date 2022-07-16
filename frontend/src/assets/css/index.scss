@@ -1,0 +1,70 @@
+$background-color: #c2c0ef;
+$link-color: #937bae;
+$title-color: #1b0846;
+$text-color: #4e3d70;
+$text-primary-color: #3a2662;
+
+$border-color: #342459;
+$border-inner: #8d81d7;
+$btn-hover-color: #301d5c;
+
+$title-big: 32px;
+$title-medium: 24px;
+$title-small: 18px;
+$text-big: 20px;
+$text-medium: 16px;
+$text-small: 14px;
+
+body {
+  margin: 0;
+  background-color: $background-color;
+}
+
+.input-component {
+  width: 100%;
+  margin: 2rem 0;
+
+  input {
+    max-width: 100%;
+    width: 90%;
+    font-size: $text-big;
+    padding: 8px 16px;
+    outline: 2px solid $border-color;
+    border: 5px solid $border-inner;
+    border-radius: 30px;
+
+    &:focus {
+      
+    }
+  }
+}
+
+.button-component {
+  width: 100%;
+  margin: 1rem 0;
+
+  button {
+    width: 100%;
+    border: 2px solid $border-color;
+    background-color: $border-inner;
+    font-size: $text-big;
+    padding: 12px 16px;
+    border-radius: 15px;
+    color: #fff;
+
+    &:hover {
+      cursor: pointer;
+      background-color: #301d5c;
+      opacity: 0.7;
+    }
+  }
+}
+
+.content {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@import "./header.scss";
+@import "./footer.scss";
+@import "./auth.scss";
